@@ -1,0 +1,50 @@
+\documentclass[journel,11pt,two column]{IEEEtran}
+\usepackage{amsmath, amssymb,amsfonts}
+\usepackage{enumitem}
+\usepackage{tfrupee}
+\vspace{3cm}
+  
+  
+\title{AI1110 Assignment I (ICSE Class 10 2019)}
+\author{sumeeth kumar(ai21btech11008)}
+\date{april 2022}
+% make the title area
+
+
+\begin{document}
+\maketitle
+\textbf{Question 2(b):}
+ \textbf{ prove that}\\
+  ${(\csc \theta - \sin \theta)(\sec \theta -\cos \theta)(\tan \theta +\cot \theta)}$=1 \\  
+ \textbf{solution:}   Given that in the equation, RHS=1.\\ 
+ we thave to show LHS = RHS , i.e 1.\\  
+ \textbf{LHS} $=(\csc \theta - \sin \theta)(\sec \theta -\cos \theta)(\tan \theta +\cot \theta)$\\
+ we know that,
+ \begin{align}
+  \csc\theta = \frac{1}{
+  \sin \theta}\\[8pt]
+  \sec\theta = \frac{1}{\cos \theta}\\[8pt]
+  \tan\theta = \frac{\sin\theta}{\cos\theta}=\frac{1}{\tan \theta}\\[8pt]
+  \sin^2\theta+\cos^2\theta=1
+ \end{align} 
+ 
+ \vspace{0.1cm}
+ 
+ \begin{center}
+  from eqns 1,2, 3,4\\[8pt]
+ \end{center}
+\begin{align*}
+ &{LHS=\left(\frac{1}{\sin\theta}-\sin\theta    \right)\left(\frac{1}{\cos\theta}-\cos\theta \right)\left(\frac{\sin\theta}{\cos\theta}+\frac{\cos\theta}{\sin\theta}\right)}\\[8pt]  
+ &{ LHS=\left(\frac{1-\sin^2\theta}{\sin\theta}\right)\left(\frac{1-\cos^2\theta}{\cos\theta}\right)\left(\frac{\sin^2\theta+\cos^2\theta}{\sin\theta \cos\theta}\right)}\\[8pt]
+ &{LHS=\left(\frac{\cos^2\theta}{\sin\theta}\right)\left(\frac{\sin^2\theta}{\cos\theta}\right)\left(\frac{1}{\sin\theta \cos\theta}\right)}\\[8pt]
+ &{LHS=\left(\frac{\sin^2\theta \cos^2\theta}{\sin^2\theta \cos^2\theta}\right)}\\[8pt]
+ &{LHS=1=RHS}
+\end{align*}
+\begin{center}
+\fbox{$\therefore {LHS=RHS}$}\\ 
+[8pt]
+\end{center}
+
+ Hence proved that ${(\csc \theta - \sin \theta)(\sec \theta -\cos \theta)(\tan \theta +\cot \theta)}$=1 \\  
+ 
+\end{document}
